@@ -1,6 +1,5 @@
 %Assuming Python script sorted images in folders.
 %Loading images into memory, trainset + testset.
-cd 'D:\warGaming\2';
 pathToImages = fullfile(cd, 'Posters\train');
 trainImages = imageDatastore(pathToImages,...
     'IncludeSubfolders',true,'LabelSource','foldernames', 'ReadFcn', @readAndResize);
