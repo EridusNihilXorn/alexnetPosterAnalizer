@@ -1,4 +1,3 @@
-cd 'D:\warGaming\2';
 predictions = load('predictions.mat');
 predictionsCell = struct2cell(predictions);
 headers = {'ID', 'Comedy', 'Other'}
